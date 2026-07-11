@@ -6,85 +6,41 @@ Status: Active
 
 ---
 
-# 1. Purpose
+## Purpose
 
-The Engineering Notebook is a long-term technical documentation project dedicated to the systematic study of computer systems through observation, experimentation, analysis, and evidence.
+This document defines the engineering principles governing every laboratory, experiment, technical report, research note, diagram, and engineering artifact contained in this repository.
 
-Its primary objective is to develop reproducible technical knowledge rather than collect isolated information.
-
-All documents produced within this repository shall follow engineering and scientific principles.
+Compliance with these principles is mandatory.
 
 ---
 
-# 2. Scope
+## Fundamental Principles
 
-This manifesto defines the principles governing every laboratory, experiment, technical report, research note, diagram, and engineering document contained in this repository.
+### Evidence
 
-Compliance with these principles is mandatory for all future documentation.
-
----
-
-# 3. Fundamental Principles
-
-## Principle 1 — Evidence
-
-No technical statement shall be accepted without supporting evidence.
-
-Evidence may include, but is not limited to:
-
-- experimental results;
-- protocol analysis;
-- packet captures;
-- system logs;
-- source code;
-- official documentation;
-- engineering specifications;
-- standards;
-- peer-reviewed publications.
+Technical statements shall be supported by evidence.
 
 ---
 
-## Principle 2 — Reproducibility
+### Reproducibility
 
-Every experiment shall be documented with sufficient detail to allow independent reproduction.
-
-Documentation shall include:
-
-- objective;
-- assumptions;
-- environment;
-- tools;
-- methodology;
-- collected evidence;
-- analysis;
-- conclusions.
+Every experiment shall be reproducible.
 
 ---
 
-## Principle 3 — Traceability
+### Traceability
 
-Every conclusion shall be traceable to one or more pieces of documented evidence.
-
-Whenever possible, references shall point to:
-
-- RFCs;
-- IEEE standards;
-- vendor documentation;
-- Linux kernel documentation;
-- source code;
-- academic literature.
+Every conclusion shall be traceable to documented evidence.
 
 ---
 
-## Principle 4 — Technical Accuracy
+### Technical Accuracy
 
-Documentation shall prioritize technical precision over simplification.
-
-When simplification is necessary for educational purposes, it shall be explicitly identified as such.
+Technical precision shall take precedence over simplification.
 
 ---
 
-## Principle 5 — Intellectual Honesty
+### Intellectual Honesty
 
 Unknown information shall never be replaced by assumptions.
 
@@ -94,158 +50,36 @@ Whenever evidence is insufficient, the correct conclusion is:
 
 ---
 
-## Principle 6 — First Principles
+### First Principles
 
-Systems shall be studied from first principles.
-
-Concepts shall not be treated as isolated facts.
-
-Whenever applicable, documentation shall explain:
-
-- historical motivation;
-- engineering problem;
-- design decisions;
-- implementation;
-- operational behavior;
-- limitations.
+Systems shall be studied from first principles whenever technically feasible.
 
 ---
 
-## Principle 7 — Primary Sources
+### Primary Sources
 
-Primary sources shall always take precedence over secondary interpretations.
+Primary sources take precedence over secondary interpretations.
 
-Preferred sources include:
+Preferred references include:
 
 - RFCs
 - IEEE Standards
-- ISO Standards
-- Linux Kernel Documentation
-- Official Vendor Documentation
-- Scientific Publications
+- Official Documentation
+- Scientific Literature
 - Source Code
 
 ---
 
-## Principle 8 — Experimental Validation
+### Documentation
 
-Every theoretical concept should be validated experimentally whenever technically feasible.
+Documentation is part of every experiment.
 
-Experimental observations take precedence over assumptions.
-
----
-
-## Principle 9 — Documentation
-
-Documentation is considered an integral component of every experiment.
-
-An undocumented experiment shall be considered incomplete.
+Undocumented experiments shall be considered incomplete.
 
 ---
 
-## Principle 10 — Continuous Revision
+### Continuous Revision
 
 Engineering knowledge evolves.
 
 Documents shall be revised whenever new evidence becomes available.
-
-Revision history shall be preserved.
-
----
-
-# 4. Research Method
-
-All investigations shall follow the sequence:
-
-Observation
-
-↓
-
-Question
-
-↓
-
-Background Research
-
-↓
-
-Hypothesis
-
-↓
-
-Experimental Design
-
-↓
-
-Evidence Collection
-
-↓
-
-Analysis
-
-↓
-
-Conclusion
-
-↓
-
-Documentation
-
-↓
-
-Peer Review (when applicable)
-
----
-
-# 5. Engineering Philosophy
-
-The objective of this repository is not to memorize technologies.
-
-The objective is to understand engineering systems.
-
-Understanding shall always precede implementation.
-
-Observation shall always precede modification.
-
-Evidence shall always precede conclusions.
-
----
-
-# 6. Quality Requirements
-
-Every technical document shall strive to be:
-
-- technically accurate;
-- reproducible;
-- traceable;
-- verifiable;
-- maintainable;
-- version controlled;
-- properly referenced.
-
----
-
-# 7. Repository Mission
-
-This repository aims to become a structured engineering notebook documenting the study of computer systems through reproducible technical investigations.
-
-Topics include, but are not limited to:
-
-- Computer Networks
-- Operating Systems
-- Linux
-- Computer Architecture
-- Network Protocols
-- Information Security
-- Digital Forensics
-- Cloud Infrastructure
-- Virtualization
-- Distributed Systems
-
----
-
-# 8. Guiding Statement
-
-Engineering is the disciplined pursuit of understanding through observation, experimentation, and evidence.
-
-Every document contained in this repository shall contribute toward that objective.
